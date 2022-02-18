@@ -7,9 +7,7 @@ var liClass=classNames({
     'item-hightlighted':isInFocus
 });
 
-// output: //item item-highlighted
-
-
+// output: item item-highlighted
 const classNames = (conditions)=>{
     //optimise function
     var getUsedClassName = function(value,key){
